@@ -1,0 +1,38 @@
+.footerSection {
+    border-top: 1px white dotted;
+    box-shadow: 0 0 14px hotpink;
+    
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+   
+}
+
+.icon {
+    //  height: 70px;
+    //  width: 70px; 
+     z-index: 10; 
+    //  display: flex;
+     
+     
+}
+
+.nextTo {
+    display: flex;
+}
+
+.space {
+    margin-right: 10px;
+}
+
+.marginRight {
+    margin-right: 40px;
+    
+}
