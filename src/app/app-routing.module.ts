@@ -1,11 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { DatenschutzComponent } from './datenschutz/datenschutz.component';
+import { FirstSectionComponent } from './first-section/first-section.component';
 import { ImpressumComponent } from './impressum/impressum.component';
 
 const routes: Routes = [
-  { path: '/impressum', component: ImpressumComponent },
-  { path: '/datenschutz', component: DatenschutzComponent },
+  { path: '', component: FirstSectionComponent },
+  { path: 'impressum', component: ImpressumComponent },
+  { path: 'datenschutz', component: DatenschutzComponent },
 ];
 
 @NgModule({
