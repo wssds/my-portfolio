@@ -123,8 +123,8 @@ img {
 }
 
 .columns6 {
-  display: flex;
-  align-items: center;
+  // display: flex;
+  // align-items: center;
   
   text-align: center;
   width: 300px;
@@ -170,3 +170,14 @@ img {
   // #47e6ff29
 }
 
+@media(max-width: 1000px) {
+  .aboutResponsive {
+    display: flex;
+    flex-direction: column;
+
+    .aboutMeSection {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

@@ -71,4 +71,20 @@
         margin-top: 60px;
         margin-right: 170px;
     }
+    
 }
+
+@media(max-width: 1000px) {
+    .firstSectionForm {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        img {
+            margin-top: 0;
+            margin-right: 0;
+            
+        }
+    }
+}
+
