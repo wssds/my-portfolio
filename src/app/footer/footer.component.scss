@@ -39,3 +39,50 @@
 .rightSection {
     width: 276px;
 }
+
+
+@media(max-width:1000px){
+    .footerSection {
+        border-top: 1px rgb(12, 216, 216) dotted;
+        box-shadow: 0 0 14px rgb(12, 216, 216);
+        
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    
+       
+    }
+    
+    .leftSection {
+        width: 276px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .icon {
+        //  height: 70px;
+        //  width: 70px; 
+         z-index: 10; 
+        //  display: flex;
+         
+         
+    }
+    
+    .nextTo {
+        display: flex;
+    }
+    
+    .space {
+        margin: 0 5px;
+    }
+    
+    .rightSection {
+        width: 276px;
+    }
+}

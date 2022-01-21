@@ -78,11 +78,15 @@
     .firstSectionForm {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
+
+        text-align: center;
 
         img {
             margin-top: 0;
             margin-right: 0;
+            width: 250px;
+            height: 250px;
             
         }
     }
