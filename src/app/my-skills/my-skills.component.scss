@@ -27,7 +27,7 @@ ul li {
     font-size: 20px;
     border-radius: 0.5em;
     margin: 0.5em;
-    box-shadow: 0 0 1em rgba(0,0,0,0.2);
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
     color: white;
     font-family: sans-serif;
     text-transform: capitalize;
@@ -50,12 +50,14 @@ ul li:nth-child(even) {
     transform: perspective(500px) rotateY(-45deg);
 }
 
-ul li:nth-child(odd):hover {
-    transform: perspective(200px) rotateY(45deg);
-    padding-left: 5%;
-}
+@media (min-width: 900px) {
+    ul li:nth-child(odd):hover {
+        transform: perspective(200px) rotateY(45deg);
+        padding-left: 5%;
+    }
 
-ul li:nth-child(even):hover {
-    transform: perspective(200px) rotateY(-45deg);
-    padding-right: 5%;
+    ul li:nth-child(even):hover {
+        transform: perspective(200px) rotateY(-45deg);
+        padding-right: 5%;
+    }
 }
