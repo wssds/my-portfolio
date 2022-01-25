@@ -16,6 +16,7 @@ import { SuccessComponent } from './success/success.component';
 import { Router, Scroll } from '@angular/router';
 import { ViewportScroller } from '@angular/common';
 import { filter } from 'rxjs';
+import { InViewDirective } from './in-view.directive';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { filter } from 'rxjs';
     FooterComponent,
     DatenschutzComponent,
     ImpressumComponent,
-    SuccessComponent
+    SuccessComponent,
+    InViewDirective
   ],
   imports: [
     BrowserModule,
