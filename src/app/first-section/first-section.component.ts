@@ -6,11 +6,11 @@ declare var anime: any;
   templateUrl: './first-section.component.html',
   styleUrls: ['./first-section.component.scss']
 })
-export class FirstSectionComponent implements AfterViewInit {
+export class FirstSectionComponent implements OnInit {
 
   constructor() { }
 
-  ngAfterViewInit(): void {
+  ngOnInit(): void {
       
   // }(): void {
     anime.timeline({loop: false})
@@ -31,7 +31,3 @@ export class FirstSectionComponent implements AfterViewInit {
   }
 
 }
-
-// export class AppComponent implements AfterViewInit  {
-  
-//   ngAfterViewInit(): void {

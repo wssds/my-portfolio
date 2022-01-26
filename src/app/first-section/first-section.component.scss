@@ -37,15 +37,15 @@
         font-size: 3.2em;
         text-transform: uppercase;
         overflow: hidden;
-      }
-      
-      .c2 .word {
+    }
+
+    .c2 .word {
         display: inline-block;
         line-height: 1em;
         height: 115px;
         // align-items: center !important;
         overflow-y: hidden;
-      }
+    }
 
     img {
         width: 400px;
@@ -59,17 +59,19 @@
         // animation: shadow 5s ease forwards;
     }
 
-    @keyframes Zoom {
-        from {
-            width: 100px;
-            height: 100px;
-            // border-radius: 100%;
-            box-shadow: -15px 15px 50px 10px #38d9f1;
-        }
-        to {
-            width: 400px;
-            height: 400px;
-            box-shadow: -15px 15px 50px 10px #47e6ff29;
+    @media (min-width: 1000px) {
+        @keyframes Zoom {
+            from {
+                width: 100px;
+                height: 100px;
+                // border-radius: 100%;
+                box-shadow: -15px 15px 50px 10px #38d9f1;
+            }
+            to {
+                width: 400px;
+                height: 400px;
+                box-shadow: -15px 15px 50px 10px #47e6ff29;
+            }
         }
     }
 
@@ -77,10 +79,9 @@
     //     from {box-shadow: none}
     //     to {box-shadow: -15px 15px 50px 10px #47e6ff29;}
     // }
-    
 }
 
-@media(max-width: 1000px) {
+@media (max-width: 1000px) {
     .firstSectionForm {
         display: flex;
         flex-direction: column;
@@ -93,8 +94,6 @@
             margin-right: 0;
             width: 250px;
             height: 250px;
-            
         }
     }
 }
-
