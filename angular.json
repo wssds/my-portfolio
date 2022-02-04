@@ -29,7 +29,7 @@
             "assets": [
               
               "src/assets",
-              "src/assets/img/logoicon.png"
+              "src/assets/img/favicon.png"
             ],
             "styles": [
               "src/styles.scss"
