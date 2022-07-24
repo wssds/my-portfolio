@@ -11,6 +11,9 @@ export class MyProjectsComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  animate(){
     let textWrapper: any = document.querySelector('.c3');
     textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='el' style='display:inline-block;'>$&</span>");
 
@@ -28,6 +31,6 @@ anime.timeline({loop: false})
     easing: "easeOutExpo",
     delay: 100
   });
+  
   }
-
 }
